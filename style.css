@@ -1,0 +1,161 @@
+:root{
+    --branco-principal:#FFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167Bf7;
+    --backgroundColor: #00030C;
+    
+--main-font:'inter';
+        --botao-azul-efeito: #3c92fa;
+}
+
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+body{
+
+    background-color: var(--backgroundColor);
+    color: var(--branco-principal);
+font-family: 'inter' ;
+font-size: 16px;
+font-weight: 400;
+
+}
+
+.main{
+    background-image: url('images/Background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height:100vh;
+    display: grid;
+    grid-template-columns:50% 50% ;
+}
+
+.container_button{
+
+    text-align: center;
+padding: 1em;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+
+    margin-bottom: 1em;
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container_aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container_title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container_image{
+    margin: 1em 0 2em 0;
+
+}
+
+.box{
+    margin: 0 6em;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 6em;
+}
+
+.container_secundario_image{
+    width: 80%;
+}
+
+.descrica_titulo{
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descrica_texto{
+
+    color: var(--cinza-secundario);
+}
+.secundary_button{
+display: inline-block;
+margin-top: 1em;
+
+}
+
+.container_descricao{
+    padding: 2em;
+}
+
+.dispositivos{
+text-align: center;
+}
+.dispositivos_titulo{
+    font-size: 3em;
+}
+.dispositivos_lista{
+        margin: 4em 0;
+        display: flex;
+list-style: none;
+justify-content: center;
+    }
+
+.list-item{
+    font-size: 2em;
+    color: var(--branco-principal);
+}
+
+.rodape{
+    text-align: center;
+    padding: 0 4em;
+    padding-bottom: 4em;
+}
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1em;
+}
+.lista__link{
+margin:1em 1em 0 0;
+font-size: 1em;
+
+}
+.lista__link a{
+    text-decoration: none;
+        color: var(--branco-principal);
+}
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link a:active {
+    color: purple;
+}
+
+.container_button:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--backgroundColor);
+}
+.rodape__texto{
+    font-size: 14px;
+    margin: 2em 0;
+
+}
+
